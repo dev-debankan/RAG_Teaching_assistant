@@ -1,0 +1,19 @@
+# Ignore downloaded videos and media
+/videos/
+/audios/
+
+# Ignore generated data and runtime output
+/jsons/
+*.joblib
+*.mp3
+*.mp4
+*.mkv
+*.wav
+/output.json
+/prompt.txt
+/response.txt
+
+# Ignore local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
